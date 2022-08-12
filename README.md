@@ -5,6 +5,8 @@
 
 ### Required Libraries
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img1.jpg)
+
 **System** - Contains fundamental classes and base classes that define commonly-used value and reference data types, events, event handlers, interfaces, attributes, and processing exceptions.
 
 **System.Drawing** - Provides access to GDI+ basic graphics functionality. 
