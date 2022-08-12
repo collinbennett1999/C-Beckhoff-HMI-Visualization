@@ -22,6 +22,7 @@
 
 ### Required Variables
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img2.jpg)
 
 **private string NetID_TwinCAT** - string containing the TwinCAT Network ID for connecting to the PLC 
 
@@ -43,16 +44,19 @@
 
 ### Program Functions
 
-
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img3.jpg)
 
 The **InitializeComponent()** initializes the form. PlotCreation() generates the plot from the ScottPlot library and specifies all plot settings. OpenStream() is a utility function that performs various tasks.
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img4.jpg)
 
 The **timer1_Tick function** updates all values that are mapped to the plot and subsequently re-renders the plot. The timer is set to refresh the space of the plot every 100ms. 
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img5.jpg)
 
 The **UpdateValues()** function reads from the data stream. Initially, the position is set to zero, and then a for loop runs through the stream, extracting all necessary values and converting them to doubles. In TwinCat3, these values were REALs, and the data-type equivalent in C# is a double. Min-max normalization is performed on these values, and the old values in the array are written over. 
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img6.jpg)
 
 The **PlotCreation()** function sets the plot parameters for styling and visibility. 
 A signal plot is used due to the rendering speed required for a large set of data points. 
@@ -65,8 +69,10 @@ The benchmark is an optional parameter that displays the time needed to render t
 Title, XLabel, and YLabel are used for naming and labeling, respectively. 
 Once all parameters are set, the plot is refreshed. 
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img7.jpg)
 
 The **OpenStream()** function begins by enabling the timer. The timer is a windows form component that raises an event at user-defined intervals, in this case, every 100ms. A new tcClient object is created and subsequently connected using the Net Id and Port Number values. A variable handle is created (this matches the desired variable name given in the TwinCat3 project.). An ADS data stream is opened with 512 * 4 bytes. 512 REAL values are read from the PLC, each 32 bits/4bytes. A new binary reader object is created. 
 
+![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img8.jpg)
 
 The **MinMaxNormalization()** function takes every array value, transforming the minimum value into a zero and the maximum value into a one. Every other value gets transformed into a decimal between 0 and 1. 
