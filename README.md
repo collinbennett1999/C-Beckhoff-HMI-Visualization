@@ -22,8 +22,6 @@
 
 ### Required Variables
 
-![alt text](https://github.com/collinbennett1999/C-Beckhoff-HMI-Visualization/blob/main/img2.jpg)
-
 **private string NetID_TwinCAT** - string containing the TwinCAT Network ID for connecting to the PLC 
 
 **Private int PortNumber** - port number for the ADS. The default value is 851. Subsequent PLCs will be numbered 852, 853, etc...
