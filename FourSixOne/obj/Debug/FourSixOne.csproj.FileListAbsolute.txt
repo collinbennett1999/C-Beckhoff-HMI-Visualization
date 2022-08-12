@@ -1,0 +1,67 @@
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\FourSixOne.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\FourSixOne.pdb
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\ScottPlot.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\ScottPlot.WinForms.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\System.Drawing.Common.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\ScottPlot.xml
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.xml
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.xml
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csprojResolveAssemblyReference.cache
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.GenerateResource.Cache
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\obj\Debug\FourSixOne.dll
+c:\users\jelec\documents\visual studio 2015\Projects\FourSixOne\FourSixOne\obj\Debug\FourSixOne.pdb
+C:\Users\Jelec\Documents\Visual Studio 2015\Projects\FourSixOne\FourSixOne\obj\Debug\ScottsPlots.Form1.resources
+C:\Users\Jelec\Documents\Visual Studio 2015\Projects\FourSixOne\FourSixOne\bin\Debug\TwinCAT.Ads.dll
+E:\FourSixOne\FourSixOne\bin\Debug\FourSixOne.dll
+E:\FourSixOne\FourSixOne\bin\Debug\FourSixOne.pdb
+E:\FourSixOne\FourSixOne\bin\Debug\ScottPlot.dll
+E:\FourSixOne\FourSixOne\bin\Debug\ScottPlot.WinForms.dll
+E:\FourSixOne\FourSixOne\bin\Debug\System.Drawing.Common.dll
+E:\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.dll
+E:\FourSixOne\FourSixOne\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.dll
+E:\FourSixOne\FourSixOne\bin\Debug\ScottPlot.xml
+E:\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.xml
+E:\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.xml
+E:\FourSixOne\FourSixOne\obj\Debug\ScottsPlots.Form1.resources
+E:\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.GenerateResource.Cache
+E:\FourSixOne\FourSixOne\obj\Debug\FourSixOne.dll
+E:\FourSixOne\FourSixOne\obj\Debug\FourSixOne.pdb
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\FourSixOne.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\FourSixOne.pdb
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\ScottPlot.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\ScottPlot.WinForms.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Drawing.Common.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\ScottPlot.xml
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.xml
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\obj\Debug\ScottsPlots.Form1.resources
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.GenerateResource.Cache
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.pdb
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\bin\Debug\TwinCAT.Ads.dll
+C:\Users\Jelec\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csprojResolveAssemblyReference.cache
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\FourSixOne.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\FourSixOne.pdb
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\ScottPlot.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\ScottPlot.WinForms.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Drawing.Common.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\ScottPlot.xml
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\bin\Debug\System.ValueTuple.xml
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.AssemblyReference.cache
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\ScottsPlots.Form1.resources
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.GenerateResource.cache
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.CoreCompileInputs.cache
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.csproj.CopyComplete
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.dll
+C:\Users\colli\Desktop\FourSixOne\FourSixOne\obj\Debug\FourSixOne.pdb
