@@ -18,38 +18,38 @@
 **System.IO** - Contains types that allow reading and writing to files and data streams, and types that provide basic file and directory support. 
 
 
-Required Variables
+**Required Variables**
 
 
-private string NetID_TwinCAT - string containing the TwinCAT Network ID for connecting to the PLC 
+**private string NetID_TwinCAT** - string containing the TwinCAT Network ID for connecting to the PLC 
 
-Private int PortNumber - port number for the ADS. The default value is 851. Subsequent PLCs will be numbered 852, 853, etc...
+**Private int PortNumber** - port number for the ADS. The default value is 851. Subsequent PLCs will be numbered 852, 853, etc...
 
-Private double maximum - the maximum magnitude number. This value cannot be lower than zero. The magnitude is displayed on the y-axis of the plot and represents the torque in ft-lbs. 
+**Private double maximum** - the maximum magnitude number. This value cannot be lower than zero. The magnitude is displayed on the y-axis of the plot and represents the torque in ft-lbs. 
 
-Private double minimum - the minimum magnitude number. This value cannot go below zero or exceed the value of the maximum magnitude. The magnitude is displayed on the y-axis of the plot and represents the torque in ft-lbs. 
+**Private double minimum** - the minimum magnitude number. This value cannot go below zero or exceed the value of the maximum magnitude. The magnitude is displayed on the y-axis of the plot and represents the torque in ft-lbs. 
 
-Private int hVar - variable handle for connecting to the PLC.
+**Private int hVar** - variable handle for connecting to the PLC.
 
-Private TcAdsCLient tcClient - TwinCAT ADS client object.
+**Private TcAdsCLient tcClient** - TwinCAT ADS client object.
 
-AdsStream dataStream - Alternate Data Stream object, stream object used for ADS communication. 
+**AdsStream dataStream** - Alternate Data Stream object, stream object used for ADS communication. 
 
-BinaryReader binRead - object that reads primitive data types as binary values
+**BinaryReader binRead** - object that reads primitive data types as binary values
 
-Double[] TwinCatArray = new double[512] - array of 512 double values (read from the PLC as REAL values) that correspond to the torque values associated with each of the 512 frequencies. 
+**Double[] TwinCatArray** = new double[512] - array of 512 double values (read from the PLC as REAL values) that correspond to the torque values associated with each of the 512 frequencies. 
 
-Program Functions
-
-
-
-The InitializeComponent() initializes the form. PlotCreation() generates the plot from the ScottPlot library and specifies all plot settings. OpenStream() is a utility function that performs various tasks.
+**Program Functions**
 
 
-The timer1_Tick function updates all values that are mapped to the plot and subsequently re-renders the plot. The timer is set to refresh the space of the plot every 100ms. 
+
+The **InitializeComponent()** initializes the form. PlotCreation() generates the plot from the ScottPlot library and specifies all plot settings. OpenStream() is a utility function that performs various tasks.
 
 
-The UpdateValues() function reads from the data stream. Initially, the position is set to zero, and then a for loop runs through the stream, extracting all necessary values and converting them to doubles. In TwinCat3, these values were REALs, and the data-type equivalent in C# is a double. Min-max normalization is performed on these values, and the old values in the array are written over. 
+The **timer1_Tick function** updates all values that are mapped to the plot and subsequently re-renders the plot. The timer is set to refresh the space of the plot every 100ms. 
+
+
+The **UpdateValues()** function reads from the data stream. Initially, the position is set to zero, and then a for loop runs through the stream, extracting all necessary values and converting them to doubles. In TwinCat3, these values were REALs, and the data-type equivalent in C# is a double. Min-max normalization is performed on these values, and the old values in the array are written over. 
 
 
 The PlotCreation() function sets the plot parameters for styling and visibility. 
