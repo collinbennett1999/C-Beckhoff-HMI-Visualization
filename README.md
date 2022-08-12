@@ -1,9 +1,9 @@
-**.NET HMI Control Documentation**
+# .NET HMI Control Documentation
 
-**Overview**
+### Overview
 
 
-**Required Libraries**
+##### Required Libraries
 
 **System** - Contains fundamental classes and base classes that define commonly-used value and reference data types, events, event handlers, interfaces, attributes, and processing exceptions.
 
@@ -18,7 +18,7 @@
 **System.IO** - Contains types that allow reading and writing to files and data streams, and types that provide basic file and directory support. 
 
 
-**Required Variables**
+##### Required Variables
 
 
 **private string NetID_TwinCAT** - string containing the TwinCAT Network ID for connecting to the PLC 
@@ -39,7 +39,7 @@
 
 **Double[] TwinCatArray** = new double[512] - array of 512 double values (read from the PLC as REAL values) that correspond to the torque values associated with each of the 512 frequencies. 
 
-**Program Functions**
+##### Program Functions
 
 
 
